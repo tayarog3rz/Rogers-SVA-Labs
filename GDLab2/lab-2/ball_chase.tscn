@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://hka8dxmrmv4g"]
+
+[ext_resource type="PackedScene" uid="uid://b5eatsktwk1fr" path="res://MainCat.tscn" id="1_0tomy"]
+[ext_resource type="PackedScene" uid="uid://crts2enfvubte" path="res://ball.tscn" id="2_rqdtg"]
+
+[node name="BallChase" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_0tomy")]
+position = Vector2(144, 125)
+
+[node name="Node2D2" parent="." instance=ExtResource("2_rqdtg")]
+position = Vector2(594, 407)

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://crts2enfvubte"]
+
+[ext_resource type="Texture2D" uid="uid://dld54apmilv11" path="res://ball.png" id="1_41u45"]
+[ext_resource type="Script" uid="uid://rhvsx8khy27v" path="res://node_2d.gd" id="2_ktgx5"]
+
+[node name="Node2D" type="Sprite2D"]
+scale = Vector2(0.20052089, 0.20052089)
+texture = ExtResource("1_41u45")
+script = ExtResource("2_ktgx5")
