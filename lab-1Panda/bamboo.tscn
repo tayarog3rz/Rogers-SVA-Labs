@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://0102qyyqpk20"]
+
+[ext_resource type="Texture2D" uid="uid://dft6mfwt2eo3s" path="res://Assets/bamboo stick.png" id="1_jy4pt"]
+
+[node name="Node2D" type="Sprite2D"]
+position = Vector2(195, 205)
+scale = Vector2(0.25574714, 0.2557472)
+texture = ExtResource("1_jy4pt")
